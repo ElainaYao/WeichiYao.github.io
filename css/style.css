@@ -17,13 +17,13 @@ ul.circle {
  
 body {
   font-family: "Quicksand", Arial, sans-serif;
-  font-weight: 420; /*400*/
-  font-size: 16pt; /*15px*/
+  font-weight: 400; /*changed: 420*/
+  font-size: 15px; /*changed: 16pt*/
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
   @media screen and (max-width: 992px) {
     body {
-      font-size: 20pt; } } /*20px*/
+      font-size: 16px; } } /*changed: 20pt*/
 
 a {
   color: #2c98f0;
@@ -80,7 +80,7 @@ figure {
   padding-top: 3em;
   padding-bottom: 40px;
   float: left;
-  width: 400px; /*300px*/
+  width: 300px; /*changed: 400px*/
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
@@ -90,18 +90,18 @@ figure {
   transition: 0.5s; }
   @media screen and (max-width: 768px) {
     #colorlib-aside {
-      width: 400px; /*300px*/
-      -moz-transform: translateX(-400px); /*300px*/
-      -webkit-transform: translateX(-400px); /*300px*/
-      -ms-transform: translateX(-400px); /*300px*/
-      -o-transform: translateX(-400px); /*300px*/
-      transform: translateX(-400px); /*300px*/
+      width: 300px; /*changed: 400px*/
+      -moz-transform: translateX(-300px); /*changed: 400px*/
+      -webkit-transform: translateX(-300px); /*changed: 400px*/
+      -ms-transform: translateX(-300px); /*changed: 400px*/
+      -o-transform: translateX(-300px); /*changed: 400px*/
+      transform: translateX(-300px); /*changed: 400px*/
       padding-top: 4em; } }
   #colorlib-aside .author-img {
-    width: 300px; /*150px;*/
-    height: 300px; /*150px;*/
+    width: 150px; /*changed: 300px;*/
+    height: 150px; /*changed: 300px;*/
     margin: 0 auto;
-    margin-bottom: 50px; /*30px*/
+    margin-bottom: 30px; /*changed: 50px*/
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -113,8 +113,8 @@ figure {
   #colorlib-aside #colorlib-logo {
     text-align: right;
     font-weight: 700;
-    font-size: 30px; /*10pt;*/
-    margin-bottom: 0.75em;/*.5em;*/
+    font-size: 22px;  
+    margin-bottom: 0.5em; 
     display: block;
     width: 100%; }
     #colorlib-aside #colorlib-logo a {
@@ -219,11 +219,11 @@ figure {
             color: #2c98f0; }
 
 .container-wrap {
-  max-width: 1170px; /*1170px*/
+  max-width: 1170px;  
   margin: 0 auto; }
 
 #colorlib-main {
-  width: calc(100% - 400px); /*300px*/
+  width: calc(100% - 300px);  
   float: right;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -407,11 +407,11 @@ body.offcanvas {
   position: relative; }
 
 .colorlib-heading {
-  font-size: 24px; /*18px*/
-  margin-bottom: 2em; /*4em*/
-  font-weight: 800; /*700*/
+  font-size: 18px;
+  margin-bottom: 4em;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 2px; /*5px*/
+  letter-spacing: 5px;
   line-height: 1.8;
   position: relative; }
   .colorlib-heading span {
@@ -421,13 +421,13 @@ body.offcanvas {
       margin-bottom: 3em; } }
 
 .heading-meta {
-  margin-bottom: 2em; /*3em*/
+  margin-bottom: 15px;
   display: block;
-  font-size: 30px; /*22pt*/
+  font-size: 10px;
   text-transform: uppercase;
   color: #999999;
-  font-weight: 1000;
-  letter-spacing: 3px; }
+  font-weight: 500;
+  letter-spacing: 5px; }
 
 .about-img {
   width: 100%;
@@ -459,8 +459,8 @@ body.offcanvas {
   padding: 20px 25px;
   display: block;
   width: 100%;
-  font-weight: 500; 
-  font-size: 16pt; /*14px*/
+  font-weight: 500;
+  font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Quicksand", Arial, sans-serif;
@@ -486,7 +486,7 @@ body.offcanvas {
   content: "\e115";
   position: absolute;
   right: 20px;
-  font-size: 20px; 
+  font-size: 14px;
   font-weight: 400;
   top: 50%;
   line-height: 1;
@@ -601,7 +601,7 @@ body.offcanvas {
   margin-top: 15px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
-  font-size: 18pt;/*20px*/
+  font-size: 20px;
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 500; }
 
@@ -614,7 +614,8 @@ body.offcanvas {
   opacity: .4;
   -ms-filter: alpha(opacity=40);
   filter: alpha(opacity=40);
-  font-size: 18pt; } /*16px*/
+  font-size: 16px; }
+
 
 .services {
   margin-bottom: 30px;
@@ -1115,6 +1116,7 @@ body.offcanvas {
         outline: none;
         text-decoration: none;
         color: #2c98f0; }
+
 
 #map {
   width: 100%;
